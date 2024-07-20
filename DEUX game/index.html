@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DEUX Simulator</title>
+</head>
+<body>
+    <div class='cpu-container'>
+        <div class='cpu-hand'>
+            <img src="images/card.png" alt="">
+            <img src="images/card.png" alt="">
+            <img src="images/card.png" alt="">
+            <img src="images/card.png" alt="">
+            <img src="images/card.png" alt="">
+            <img src="images/card.png" alt="">
+            <img src="images/card.png" alt="">
+        </div>
+        <div class='cpu-animation hidden'>
+            <img id='cpu-deux' src="images/deux.png" alt="">
+        </div>
+    </div>
+    <div class='play-area'>
+        <div class='score'>
+            <p class='cpu-score-title'>OPPONENT: <span id='cpu-score'>0</span></p>
+            <div id='separator'></div>
+            <p class='player-score-title'>YOU: <span id='player-score'>0</span></p>
+            <p class='rules' style="color:#fff;">Whoever gets to 150 pts first loses</p>
+        </div>
+        <div class='play-pile'>
+            <img src="images/blue2.png" alt="">
+        </div>
+        <div class='draw-pile'>
+            <img src="images/card.png" alt="">
+        </div>
+        <img id="draw-card" class='hidden' src="images/card.png" alt="">
+    </div>
+    <div class='end-of-round hidden'>
+        <p class='round'>X won the round!</p>
+    </div>
+    <div class='end-of-game hidden'>
+        <p class='game'>X won the game!</p>
+        <button id = 'play-again' class='play-again'>Play Again!</button>
+    </div>
+    <div class='player-container'>
+        <div class='player-hand'>
+            <img src="images/blue9.png" alt="">
+        </div>
+        <div class='player-animation hidden'>
+            <img id='player-deux' src="images/deux.png" alt="">
+        </div>
+    </div>
+    <div id ='color-picker' class='color-picker'>
+        <p>Select a color:</p>
+        <div>
+            <button id = 'red' class='red'>Red</button>
+            <button id = 'green' class='green'>Green</button>
+            <button id = 'blue' class='blue'>Blue</button>
+            <button id = 'yellow' class='yellow'>Yellow</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
