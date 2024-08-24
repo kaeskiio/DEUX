@@ -3,6 +3,9 @@
 ## Overview
 Deux is a fun and engaging card game inspired by UNO, with a unique twist. While the gameplay is similar to UNO, the only way to win is if your last card is an even-numbered card.
 
+## Development
+I developed Deux using JavaScript, CSS, and HTML. The core game logic, including turn-taking and special card effects, is handled by JavaScript. CSS was used to style the game interface, ensuring an engaging and visually appealing experience, while HTML structures the content and layout of the game. Together, I could recreate the classic card game feel with a modern twist.
+
 ## How to Play
 
 ### Objective
